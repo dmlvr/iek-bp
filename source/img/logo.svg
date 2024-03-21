@@ -1,0 +1,8 @@
+<svg id="лого" xmlns="http://www.w3.org/2000/svg" width="90" height="44" viewBox="0 0 90 44">
+<defs>
+  </defs>
+  <path id="K" class="cls-1" fill="#444642" d="M454,35h12V51h3l11-16h14L479,56l16,23H480L469,63h-3V79H454V35Z" transform="translate(-405 -35)"/>
+  <path id="I" class="cls-1" fill="#444642" d="M405,35h12V47H405V35Zm0,16h12V79H405V51Z" transform="translate(-405 -35)"/>
+  <path id="E" class="cls-1" fill="#444642" d="M421,51h29V63H433v4h17V79H421V51Z" transform="translate(-405 -35)"/>
+  <path id="yellow" class="cls-2" fill="#ffcc18" d="M421,35V47h29V35H421Z" transform="translate(-405 -35)"/>
+</svg>

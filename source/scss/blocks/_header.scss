@@ -1,0 +1,62 @@
+.header {
+  background-color: rgba($black, 0.48);
+  padding-top: 8px;
+  padding-bottom: 8px;
+  width: 100%;
+  transition: 0.3s;
+
+  @include viewport--m {
+    background: linear-gradient(100deg, #cfcece 0.35%, #f1eded 115.48%);
+  }
+
+  &--fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    background: none;
+    background-color: rgba($black, 0.48) !important;
+
+    .header__btn--reg {
+      display: flex;
+    }
+
+    svg {
+      display: none;
+    }
+  }
+}
+
+.header__container {
+  @include container;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.header__phone {
+  color: white;
+  margin-left: auto;
+
+  &:hover {
+    color: $yellow;
+  }
+
+  @include viewport--m {
+    display: none;
+  }
+}
+
+.header__btn {
+  @include btn;
+
+  &--reg {
+    display: none;
+  }
+
+  &--entrance {
+    @include viewport--m {
+      margin-left: auto;
+    }
+  }
+}
